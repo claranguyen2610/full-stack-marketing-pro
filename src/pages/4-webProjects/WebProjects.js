@@ -24,7 +24,7 @@ const WebProjects = () => {
           result,
           image,
           webURL,
-          projectURL
+          projectURL, btn1, btn2
         } = webProject;
         return (
           <WebProjectSingle
@@ -36,6 +36,8 @@ const WebProjects = () => {
             image={image}
             webURL={webURL}
             projectURL={projectURL}
+            btn1={btn1}
+            btn2={btn2}
           />
         );
       })}

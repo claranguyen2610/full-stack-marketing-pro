@@ -1,6 +1,7 @@
 import EECwebProject from '../images/4-web-project/eec-website-mockup.jpg';
 import TVEwebProject from '../images/4-web-project/TVE-website-mockup.jpg';
 import BSwebProject from '../images/4-web-project/blincq-website-mockup.jpg';
+import MyPortProject from '../images/4-web-project/portfolio-mockup-website-mockup.jpg';
 
 export const webProjects = [
   {
@@ -16,7 +17,9 @@ export const webProjects = [
     image: EECwebProject,
     webURL: 'https://europeaneyecenter.com/en/',
     projectURL:
-      '/uxui-project-portfolio/full-website-redesign-for-european-eye-center'
+      '/uxui-project-portfolio/full-website-redesign-for-european-eye-center',
+    btn1: 'View Full Project',
+    btn2: 'Visit Website'
   },
   {
     id: 2,
@@ -31,7 +34,9 @@ export const webProjects = [
     image: TVEwebProject,
     webURL: 'https://topvisioneyewear.vn/en/',
     projectURL:
-      '/uxui-project-portfolio/top-vision-eyewear-hybrid-ecommerce-website'
+      '/uxui-project-portfolio/top-vision-eyewear-hybrid-ecommerce-website',
+    btn1: 'View Full Project',
+    btn2: 'Visit Website'
   },
   {
     id: 3,
@@ -44,7 +49,27 @@ export const webProjects = [
     result: '',
     image: BSwebProject,
     webURL: 'https://blincqsolutions.com/',
-    projectURL: '/uxui-project-portfolio/blincq-solutions-medical-tech-site'
+    projectURL: '/uxui-project-portfolio/blincq-solutions-medical-tech-site',
+    btn1: 'View Full Project',
+    btn2: 'Visit Website'
+  },
+  {
+    id: 0,
+    h2: 'Portfolio Website Redesign',
+    h4: 'Full Design & Build — From Concept to Code',
+    description: [
+      'My old portfolio was a basic template — serviceable, but forgettable. It didn’t showcase my skills, personality, or let me flex my end-to-end marketing and technical chops. So I scrapped it and started fresh.',
+      'I took full ownership: reimagined the layout, wrote the copy in English and Vietnamese, designed high-fidelity mockups in Figma, and coded everything from scratch with HTML, CSS, and React. No WordPress, no templates — just me and the code.',
+      'Beyond the visuals, I focused on UX and SEO: Built responsive layouts that adapt seamlessly across devices, optimized site structure and metadata for search engines, integrated lightweight animations to guide users without slowing down performance, created clear conversion funnels to highlight my marketing skills => and deployed it on Netlify to make it live on the internet'
+    ],
+    result:
+      'The result? A site that’s truly mine — sleek, fast, and professional — and a showcase of my ability to see a project through from the first sketch to the last line of code.',
+    image: MyPortProject,
+    webURL:
+      'https://www.figma.com/design/H4LsuI1KFG5hxPPWpiyEXM/Full-stack-marketing-portfolio?m=auto&t=EShWVmBWWNoZkGE8-1',
+    projectURL: 'https://github.com/claranguyen2610/full-stack-marketing-pro',
+    btn1: 'View code on Github',
+    btn2: 'See the Figma Design'
   }
 ];
 

@@ -17,7 +17,9 @@ const Hero = () => {
           browse through this portfolio to see how I can help your business
           thrive.
         </p>
-        <a href="/" className="btn-yellow btn-mt-sm">
+        <a
+          href="https://drive.google.com/file/d/1bPYT-g7HQorzPZeHjdujka4_H6ANQ5vL/view?usp=sharing"
+          className="btn-yellow btn-mt-sm">
           View My CV (Resume)
         </a>
         <div className="home-hero-btn" />

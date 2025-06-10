@@ -8,7 +8,9 @@ const WebProjectSingle = ({
   result,
   image,
   webURL,
-  projectURL
+  projectURL,
+  btn1,
+  btn2
 }) => {
   return (
     <section className="web-project-single site-container-no-bg">
@@ -36,10 +38,10 @@ const WebProjectSingle = ({
           <img src={image} alt="website project mockup" />
           <div className="web-project-single-btns flex-center">
             <a href={projectURL} className="btn-yellow">
-              See Full Project
+              {btn1}
             </a>
             <a href={webURL} className="btn-yellow-stroke">
-              Visit Website
+              {btn2}
             </a>
           </div>
         </div>

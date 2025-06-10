@@ -81,12 +81,12 @@
     flex-direction: column;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.85);
-    top: 61px;
+    top: 60px;
     right: 0;
     bottom: 0;
     width: 250px;
     padding: 20px 20px;
-    height: 80vh;
+    height: 90vh;
     justify-content: flex-start;
     gap: 30px;
   }
