@@ -28,7 +28,7 @@ const AboutMeHero = () => {
           </p>
         </div>
         <div className="aboutme-hero-img">
-          <img src={my_portrait} alt="My Portrait" className="img-rotate" />
+          <img src={my_portrait} alt="My Portrait" className="rotate" />
         </div>
       </div>
     </section>

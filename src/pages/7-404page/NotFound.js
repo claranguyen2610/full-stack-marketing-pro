@@ -31,7 +31,7 @@ const NotFound = () => {
           <img
             src={astronautImg}
             alt="Astronaut illustration representing page not found"
-            className="img-rotate"
+            className="rotate"
           />
         </div>
       </section>
