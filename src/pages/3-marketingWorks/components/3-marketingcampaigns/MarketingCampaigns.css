@@ -1,0 +1,121 @@
+.marketing-campaign-img-container {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.marketing-campaign-img-container img {
+  border-radius: 15px;
+}
+.dark-grey-text {
+  color: var(--dark-grey);
+}
+/* ------Medical Tourism page------- */
+.medical-tourism-page-img {
+  height: 520px;
+  overflow: scroll;
+  border: 2px var(--light-grey) solid;
+  margin-top: 25px;
+}
+.medical-tourism-page-img img {
+  border-radius: 0;
+}
+/* ------whatclinic------- */
+.medical-tourism-whatclinic {
+  gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.medical-tourism-whatclinic-text {
+  flex: 1;
+}
+.medical-tourism-whatclinic-img {
+  flex: 1;
+}
+.medical-tourism-whatclinic-img img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* ------medical tourism blogs------- */
+.medical-tourism-blog {
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.medical-tourism-blogs-img img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* ------medical tourism FB posts------- */
+.medical-tourism-FBpost {
+  gap: 25px;
+}
+.medical-tourism-FBpost div {
+  flex: 1;
+  box-shadow: 0 0 30px rbga(0, 0, 0, 0.3);
+}
+.medical-tourism-FBpost div img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* ------medical tourism  results------- */
+.medical-tourism-campaign-result {
+  background-color: var(--light-grey);
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+/* ------ortho-k------- */
+.orthoK-campaign {
+  margin-top: 50px;
+}
+.orthoK-campaign-content {
+  gap: 50px;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+@media (max-width: 1100px) {
+  .medical-tourism-whatclinic {
+    gap: 20px;
+  }
+  .medical-tourism-blog {
+    gap: 20px;
+  }
+  .medical-tourism-FBpost {
+    gap: 20px;
+  }
+  .orthoK-campaign-content {
+    gap: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .marketing-campaign-img-container {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .medical-tourism-page-img {
+    height: 350px;
+    overflow: scroll;
+    border: 2px var(--light-grey) solid;
+  }
+  .medical-tourism-whatclinic {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .medical-tourism-blog {
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .medical-tourism-FBpost {
+    gap: 10px;
+  }
+  .medical-tourism-FBpost .marketing-campaign-img-container {
+    margin-bottom: 10px;
+  }
+  .medical-tourism-campaign-result {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .orthoK-campaign-content {
+    gap: 20px;
+    align-items: center;
+  }
+}

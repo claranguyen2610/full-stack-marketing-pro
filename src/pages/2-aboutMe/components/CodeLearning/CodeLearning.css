@@ -1,0 +1,34 @@
+.aboutme-code-learning-content {
+  gap: 30px;
+  margin-top: 30px;
+}
+.aboutme-code-learning-left {
+  flex: 2;
+  background-color: var(--main-yellow);
+  border-radius: 30px;
+  padding: 25px;
+}
+.aboutme-code-learning h3 {
+  font-weight: 600;
+}
+.aboutme-code-learning-right {
+  flex: 5;
+}
+
+@media (max-width: 1100px) {
+  .aboutme-code-learning-content {
+    gap: 20px;
+  }
+  .aboutme-code-learning-left {
+    flex: 3;
+    padding: 20px;
+  }
+  .aboutme-code-learning-right {
+    flex: 7;
+  }
+}
+@media (max-width: 800px) {
+  .aboutme-code-learning-content {
+    gap: 15px;
+  }
+}

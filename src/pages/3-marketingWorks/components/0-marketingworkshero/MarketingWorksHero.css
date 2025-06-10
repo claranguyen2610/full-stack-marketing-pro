@@ -1,0 +1,29 @@
+.marketing-works-hero {
+  background-color: var(--main-black);
+  color: var(--white-color);
+}
+.marketing-works-btns {
+  display: flex;
+  justify-content: center;
+}
+.marketing-works-hero .marketing-works-navigation {
+  width: 1000px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 1100px) {
+  .marketing-works-hero .box-container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  .marketing-works-hero .marketing-works-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

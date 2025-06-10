@@ -1,0 +1,35 @@
+.aboutme-hero {
+  background-color: var(--main-black);
+  color: var(--white-color);
+}
+.aboutme-hero .flex-spacebetween {
+  gap: 70px;
+}
+
+.aboutme-hero-content {
+  flex: 5;
+}
+.aboutme-hero-img {
+  flex: 3;
+}
+.aboutme-hero-img img {
+  border-radius: 30px;
+}
+
+@media (max-width: 1100px) {
+  .aboutme-hero .flex-spacebetween {
+    gap: 40px;
+  }
+  .aboutme-hero-content {
+    flex: 2;
+  }
+  .aboutme-hero-img {
+    flex: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutme-hero-img {
+    padding: 0 25px 25px 25px;
+  }
+}

@@ -1,0 +1,22 @@
+.home-skillset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 50px;
+}
+.home-sillset-box {
+  padding: 30px 25px 20px 25px;
+  border-radius: 30px;
+}
+.home-sillset-box:nth-child(odd) {
+  border: 1px var(--dark-grey) solid;
+}
+.home-sillset-box:nth-child(even) {
+  background-color: var(--light-grey);
+}
+
+@media (max-width: 800px) {
+  .home-skillset-grid{
+    margin-top: 30px;
+  }
+}

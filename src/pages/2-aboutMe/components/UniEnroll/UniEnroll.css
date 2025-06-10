@@ -1,0 +1,49 @@
+.aboutme-uniEnroll .flex-spacebetween {
+  gap: 50px;
+}
+.aboutme-uniEnroll-img {
+  flex: 4;
+  border-radius: 30px !important;
+}
+.aboutme-uniEnroll-img.top-img {
+  display: none;
+}
+.aboutme-uniEnroll-img.bottom-img {
+  display: block;
+}
+.aboutme-uniEnroll-img img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.aboutme-uniEnroll-content {
+  flex: 6;
+}
+
+@media (max-width: 1100px) {
+  .aboutme-uniEnroll .flex-spacebetween {
+    gap: 20px;
+  }
+  .aboutme-uniEnroll-img {
+    flex: 1;
+  }
+  .aboutme-uniEnroll-content {
+    flex: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutme-uniEnroll .flex-spacebetween {
+    gap: 15px;
+  }
+  .aboutme-uniEnroll-img img {
+    margin-top: 15px;
+    height: 550px;
+  }
+  .aboutme-uniEnroll-img.top-img {
+    display: block;
+  }
+  .aboutme-uniEnroll-img.bottom-img {
+    display: none;
+  }
+}

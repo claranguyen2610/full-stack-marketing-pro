@@ -1,0 +1,23 @@
+.page-not-found {
+  background-color: var(--main-black);
+  color: var(--white-color);
+}
+.page-not-found .flex-spacebetween {
+  gap: 50px;
+}
+.page-not-found .page-not-found-text {
+  flex: 1.5;
+}
+.page-not-found .page-not-found-img {
+  flex: 1;
+}
+.page-not-found-img img {
+  border-radius: 30px;
+  border: 5px var(--main-yellow) solid;
+}
+
+@media (max-width: 800px) {
+  .page-not-found .page-not-found-img {
+    padding: 30px;
+  }
+}

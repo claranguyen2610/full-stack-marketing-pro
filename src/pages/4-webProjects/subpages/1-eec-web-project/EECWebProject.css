@@ -1,0 +1,7 @@
+.image-instruction {
+  font-style: italic;
+  padding-left: 1em;
+  border-left: 4px solid #ccc;
+  color: #555;
+  margin: 20px 0;
+}

@@ -1,0 +1,62 @@
+.hire-me-box {
+  border-radius: 30px;
+}
+.hireme-box-head {
+  padding: 20px;
+  border-radius: 28px 28px 0 0;
+  gap: 20px;
+}
+.hireme-box-head h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.taskList-description {
+  padding: 30px 30px 20px 30px;
+}
+/* black box style */
+.black-box {
+  border: 2px solid var(--main-black);
+}
+.hireme-black-box-head {
+  background-color: black;
+}
+.hireme-black-box-head h3 {
+  color: var(--white-color);
+}
+/* yello box style */
+.yellow-box {
+  border: 2px solid var(--dark-yellow);
+}
+.hireme-yellow-box-head {
+  background-color: var(--main-yellow);
+}
+
+@media (max-width: 1100px) {
+  .hire-me-box {
+    border-radius: 20px;
+  }
+  .hireme-box-head {
+    padding: 20px;
+    border-radius: 18px 18px 0 0;
+    align-items: flex-start;
+  }
+  .taskList-description {
+    padding: 30px 15px 15px 15px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .hire-me-box {
+    border-radius: 20px;
+  }
+  .hireme-box-head {
+    padding: 20px 20px 30px 20px;
+    border-radius: 18px 18px 0 0;
+    align-items: flex-start;
+  }
+
+  .taskList-description {
+    padding: 20px 10px 10px 10px !important;
+  }
+}

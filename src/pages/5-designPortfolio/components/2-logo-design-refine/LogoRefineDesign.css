@@ -1,0 +1,193 @@
+/* ------European Eye Center logo refinement--------- */
+.eec-logo-refine {
+  margin-top: 50px;
+}
+.eec-old-logo {
+  width: 400px;
+}
+.eec-old-logos {
+  gap: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.eec-old-logos img {
+  border-radius: 15px;
+}
+.eec-old-logos-inside {
+  gap: 25px;
+  flex: 2.07;
+}
+.eec-old-logos-inside div {
+  flex: 1;
+}
+.eec-old-logo-single {
+  flex: 1;
+}
+.eec-refined-logos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.eec-refined-logos .flex-center-column {
+  padding: 20px 20px 0 20px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.eec-refined-logo-inUse {
+  margin-top: 30px;
+}
+/* --------Top Vision Eyewear Logo refinement---------- */
+.tve-old-logos {
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.tve-old-logos .tve-old-logo {
+  flex: 1;
+}
+.tve-old-logos .tve-old-logo img {
+  border-radius: 15px;
+}
+.tve-old-logo-2 {
+  border: 1px var(--light-grey) solid;
+}
+.tve-logo-refine-solution {
+  gap: 40px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.solution-desciption {
+  flex: 1;
+}
+.tve-refined-logo-full {
+  flex: 1;
+  flex-direction: column;
+}
+.tve-refined-logo-inUse {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tve-refined-logo-inUse img {
+  border-radius: 15px;
+}
+
+/* --------Top Vision Eyewear Logo design---------- */
+.tve-logo-design-process-imgs {
+  margin: 30px 0;
+}
+.tve-logo-drawing {
+  flex: 1.2;
+}
+.tve-logo-drawing img {
+  border-radius: 15px;
+}
+.tve-logo-digital {
+  flex: 1;
+}
+.arrow-icon {
+  flex: 0.3;
+}
+.right-arrow-icon {
+  font-size: 50px;
+  color: var(--dark-grey);
+}
+.tve-new-logo-inUse {
+  gap: 30px;
+  margin: 30px 0;
+}
+.tve-new-logo-inUse div {
+  flex: 1;
+}
+.tve-new-logo-inUse img {
+  border-radius: 15px;
+}
+
+@media (max-width: 1100px) {
+  /* ------European Eye Center logo refinement--------- */
+  .eec-logo-refine {
+    margin-top: 40px;
+  }
+  .eec-old-logos {
+    gap: 20px;
+    flex-direction: row;
+  }
+  .eec-old-logos img {
+    border-radius: 15px;
+  }
+  .eec-old-logos-inside {
+    flex-direction: column;
+    gap: 20px;
+    flex: 0.52;
+  }
+
+  /* --------Top Vision Eyewear Logo refinement---------- */
+  .tve-old-logos {
+    gap: 30px;
+  }
+  .tve-logo-refine-solution {
+    gap: 0;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  /* --------Top Vision Eyewear Logo design---------- */
+  .tve-new-logo-inUse {
+    gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  /* ------European Eye Center logo refinement--------- */
+  .eec-logo-refine {
+    margin-top: 30px;
+  }
+  .eec-old-logo {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .eec-old-logos {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .eec-old-logos-inside {
+    gap: 10px;
+  }
+  .eec-refined-logos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .eec-refined-logos .flex-center-column {
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+  }
+  .eec-refined-logos .flex-center-column img {
+    border-radius: 15px;
+  }
+  .eec-refined-logo-inUse {
+    margin-top: 20px;
+  }
+  /* --------Top Vision Eyewear Logo refinement---------- */
+  .tve-old-logos {
+    gap: 10px;
+  }
+
+  /* --------Top Vision Eyewear Logo design---------- */
+  .tve-logo-design-process-imgs {
+    flex-direction: row;
+  }
+  .tve-logo-drawing {
+    flex: 1.4;
+  }
+  .tve-logo-digital {
+    flex: 1;
+  }
+  .arrow-icon {
+    flex: 0.3;
+  }
+  .right-arrow-icon {
+    font-size: 40px;
+  }
+  .tve-new-logo-inUse {
+    gap: 20px;
+  }
+}

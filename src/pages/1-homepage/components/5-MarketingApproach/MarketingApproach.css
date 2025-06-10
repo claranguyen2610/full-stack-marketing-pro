@@ -1,0 +1,47 @@
+.marketing-approach-list {
+  margin-top: 50px;
+}
+.marketing-approach-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.marketing-approach-item:last-child {
+  margin-bottom: 0;
+}
+.marketing-approach-item h4 {
+  font-size: 24px;
+  text-align: right;
+  background-color: var(--light-grey);
+  padding: 20px;
+  border-right: 8px solid var(--main-black);
+}
+.marketing-approach-item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .marketing-approach-list {
+    margin-top: 30px;
+  }
+  .marketing-approach-item {
+    gap: 10px;
+    grid-template-columns: 43% 57%;
+    margin-bottom: 25px;
+  }
+  .marketing-approach-item h4 {
+    font-size: 20px;
+    border-right: 5px var(--main-black) solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marketing-approach-item p {
+    font-size: 15.5px;
+  }
+}

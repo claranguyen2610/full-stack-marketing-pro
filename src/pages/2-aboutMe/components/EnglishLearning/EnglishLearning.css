@@ -1,0 +1,36 @@
+.aboutme-english-learning .flex-spacebetween {
+  gap: 50px;
+}
+.aboutme-english-learning-img {
+  flex: 4;
+  border-radius: 30px !important;
+}
+.aboutme-english-learning-img img {
+  height: 470px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.aboutme-english-learning-content {
+  flex: 6;
+}
+
+@media (max-width: 1100px) {
+  .aboutme-english-learning .flex-spacebetween {
+    gap: 20px;
+  }
+  .aboutme-english-learning-img {
+    flex: 3;
+  }
+  .aboutme-english-learning-content {
+    flex: 5;
+  }
+}
+
+@media (max-width: 800px) {
+.aboutme-english-learning-img img{
+  margin-top: 15px;
+}
+  .aboutme-english-learning .flex-spacebetween {
+    gap: 15px;
+  }
+}

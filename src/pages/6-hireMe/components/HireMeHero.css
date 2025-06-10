@@ -1,0 +1,17 @@
+.hire-me-contact-info {
+  gap: 30px;
+}
+.hire-me-contact-info a {
+  text-decoration: none;
+  gap: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.hire-me-contact-info a:hover {
+  color: var(--dark-yellow);
+}
+@media (max-width: 1000px) {
+  .hire-me-contact-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

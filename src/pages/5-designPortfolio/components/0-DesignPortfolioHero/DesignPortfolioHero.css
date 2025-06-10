@@ -1,0 +1,7 @@
+.design-portfolio-hero {
+  background-color: var(--main-yellow);
+}
+.design-portfolio-navigation {
+  gap: 20px;
+  width: fit-content;
+}

@@ -1,0 +1,20 @@
+.home-hero {
+  background-color: var(--main-black);
+  color: var(--white-color);
+}
+.home-hero h5 {
+  margin-bottom: 5px !important;
+}
+.home-hero h1 {
+  margin-bottom: -5px !important;
+}
+.home-hero p {
+  width: 80%;
+}
+
+@media (max-width: 800px) {
+  .home-hero p {
+    text-align: center;
+    width: 100%;
+  }
+}

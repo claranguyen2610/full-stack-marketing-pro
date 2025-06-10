@@ -1,0 +1,50 @@
+.home-aboutme {
+  background-color: var(--light-grey);
+}
+.home-aboutme .flex-spacebetween {
+  gap: 80px;
+}
+.home-aboutme-content {
+  flex: 9;
+}
+.home-aboutme-img {
+  flex: 4;
+}
+.home-aboutme-img img {
+  border-radius: 30px;
+}
+.home-aboutme-btn-1 {
+  display: block;
+  max-width: fit-content;
+}
+.home-aboutme-btn-2 {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .home-aboutme .flex-spacebetween {
+    gap: 40px;
+  }
+  .home-aboutme-content {
+    flex: 6;
+  }
+  .home-aboutme-img {
+    flex: 4;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-aboutme .flex-spacebetween {
+    gap: 30px;
+  }
+  .home-aboutme-btn-1 {
+    display: none;
+  }
+  .home-aboutme-btn-2 {
+    display: block;
+    max-width: fit-content;
+  }
+  .home-aboutme-img {
+    padding: 0 20px 20px 20px;
+  }
+}

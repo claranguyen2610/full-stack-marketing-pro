@@ -1,0 +1,107 @@
+.home-single-experience {
+  /* margin-top: 50px; */
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr;
+  gap: 30px;
+}
+
+.home-single-experience ul {
+  margin-left: -15px;
+}
+.home-experience-info {
+  margin-right: 50px;
+}
+.home-experience-info h3 {
+  font-weight: 400;
+  color: var(--dark-grey);
+}
+
+.home-experience-info h4 {
+  font-weight: 600;
+  margin-top: -10px;
+}
+.home-experience-info .position-detail {
+  margin-top: -20px;
+}
+.home-experience-info .position-detail p{
+margin-bottom: -10px;
+}
+.home-experience-info .position-detail p:last-child{
+  margin-bottom: 10px;
+}
+.home-experience-detail-2 {
+  margin-top: 50px;
+}
+.home-experience-card {
+  border-radius: 30px;
+  padding: 20px 15px 10px 20px;
+}
+.yellow-bg {
+  background-color: var(--main-yellow);
+  margin-bottom: 30px;
+}
+.black-border {
+  border: 2px var(--main-black) solid;
+}
+.black-bg {
+  background-color: var(--main-black);
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+.dark-yellow-border {
+  border: 2px var(--dark-yellow) solid;
+}
+
+@media (max-width: 1100px) {
+  .home-single-experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  .home-experience-info {
+    margin-right: 20px;
+  }
+  .home-experience-card {
+    border-radius: 20px;
+    padding: 15px 10px 5px 10px;
+  }
+  .yellow-bg,
+  .black-bg {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-single-experience {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .home-single-experience:last-child {
+    margin-top: 40px;
+  }
+  .home-experience-info {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .home-experience-card {
+    border-radius: 30px;
+    padding: 20px 15px 10px 15px;
+  }
+  .home-experience-detail-2 {
+    margin-top: 5px;
+  }
+  .yellow-bg {
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  .black-border {
+    margin-left: 50px;
+  }
+  .black-bg {
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  .dark-yellow-border {
+    margin-left: 50px;
+  }
+}

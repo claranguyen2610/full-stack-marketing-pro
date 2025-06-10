@@ -1,0 +1,14 @@
+.web-projects-hero {
+  background-color: black;
+  margin-bottom: var(--section-padding-desktop);
+}
+@media (max-width: 1100px) {
+  .web-projects-hero {
+    margin-bottom: var(--section-padding-tablet);
+  }
+}
+@media (max-width: 800px) {
+  .web-projects-hero {
+    margin-bottom: var(--section-padding-mobile);
+  }
+}

@@ -1,0 +1,163 @@
+/* Social Media / Facebook Post Designs */
+.short-general-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.social-media-designs {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-media-designs img {
+  border-radius: 15px;
+}
+.social-media-designs-1 {
+  margin-bottom: 10px;
+}
+.blephex-design {
+  flex: 1.25;
+}
+.aveo-promotion {
+  flex: 1.25;
+}
+.mycon-lenses {
+  flex: 2;
+}
+.ortho-k-1 {
+  flex: 1;
+}
+.ortho-k-2 {
+  flex: 1.02;
+}
+.glasses-sale {
+  flex: 1.15;
+}
+
+/* In-House TV Display Slides (Digital Screen Ads) */
+.grid-2-columns-tvads {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 25px;
+  width: 100%;
+}
+.grid-2-columns-tvads img {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Print Flyer Designs */
+.flyer-design {
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.flyer-design img {
+  border-radius: 15px;
+}
+.flyer-design .flex-1 {
+  flex: 1;
+}
+.flyer-design .flex-1 img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.flyer-design .flex-2 {
+  flex: 1.77;
+}
+/* Stationery Design */
+.business-card-design {
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.business-card-design img {
+  border-radius: 15px;
+}
+.business-card-design-mockup img {
+  border-radius: 15px;
+}
+
+@media (max-width: 1100px) {
+  /* Social Media / Facebook Post Designs */
+  .social-media-designs {
+    gap: 15px;
+  }
+  /* In-House TV Display Slides (Digital Screen Ads) */
+  /* Print Flyer Designs */
+
+  /* Stationery Design */
+}
+@media (max-width: 800px) {
+  /* Social Media / Facebook Post Designs */
+  .short-general-description {
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .short-general-description .btn-black-stroke {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15.5px;
+    border: 1px var(--main-black) solid;
+    font-weight: 400;
+  }
+  .social-media-designs img {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  .blephex-design {
+    flex: none;
+  }
+  .aveo-promotion {
+    flex: none;
+  }
+  .mycon-lenses {
+    flex: none;
+  }
+  .ortho-k-1 {
+    flex: none;
+  }
+  .ortho-k-2 {
+    flex: none;
+  }
+  .glasses-sale {
+    flex: none;
+  }
+  .social-media-designs .full {
+    flex: 0 0 100%;
+  }
+  .social-media-designs .half {
+    flex: 0 0 47.5%;
+  }
+  /* In-House TV Display Slides (Digital Screen Ads) */
+  .grid-2-columns-tvads {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  /* Print Flyer Designs */
+  .flyer-design {
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .flyer-design img {
+    border-radius: 10px;
+  }
+  /* Stationery Design */
+  .business-card-design {
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .business-card-design img {
+    border-radius: 10px;
+  }
+  .business-card-design-mockup img {
+    border-radius: 10px;
+  }
+}

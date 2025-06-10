@@ -1,0 +1,137 @@
+.design-container {
+  margin-bottom: 70px;
+}
+.student-design-project img {
+  border-radius: 15px;
+}
+.design-container:last-child {
+  margin-bottom: 0;
+}
+.design-container .grid-3-columns {
+  gap: 20px;
+}
+
+.design-container .view-full-design-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.student-project-roles-tools {
+  gap: 30px;
+}
+.student-project-roles {
+  padding: 20px;
+  background-color: var(--main-black);
+  border-radius: 15px;
+}
+.student-project-tools {
+  padding: 20px;
+  border: 2px var(--main-black) solid;
+  border-radius: 15px;
+}
+.tool-icons img {
+  border-radius: 0;
+}
+.tool-icons {
+  gap: 10px;
+  margin-top: -10px;
+}
+
+/* ---------poster design-------- */
+.grand-opening-poster-imgs {
+  gap: 30px;
+}
+.grand-opening-poster-imgs .design {
+  flex: 1.06;
+}
+.grand-opening-poster-imgs .mockup {
+  flex: 2;
+}
+/* ---------brochure design------ */
+.brochure-design {
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.brochure-design-single img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.brochure-design-mockup {
+  gap: 20px;
+}
+/* --------Individual Assignment - Poster design using Photoshop--------- */
+.ce-poster {
+  gap: 30px;
+  margin-top: 40px;
+}
+.ce-poster-design {
+  flex: 3.1;
+}
+.ce-poster-intro-mockup {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.ce-poster-intro-mockup-text-1 {
+  display: none;
+}
+.ce-poster-intro-mockup-text-2 {
+  display: block;
+}
+.ce-poster-intro-mockup p {
+  margin-top: -10px;
+}
+
+@media (max-width: 1100px) {
+  .design-container {
+    margin-bottom: 50px;
+  }
+  .ce-poster {
+    gap: 20px;
+  }
+  .ce-poster-design {
+    flex: 1.35;
+  }
+  .ce-poster-intro-mockup {
+    flex: 2;
+  }
+}
+@media (max-width: 800px) {
+  .student-project-roles-tools {
+    gap: 10px;
+    width: 100%;
+  }
+  .student-project-roles {
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+  .student-project-tools {
+    padding: 15px 10px;
+    border: 2px var(--main-black) solid;
+    border-radius: 15px;
+  }
+  .student-project-tools ul {
+    margin-left: -15px;
+  }
+  /* ---------brochure design------ */
+  .brochure-design {
+    gap: 10px;
+  }
+  .brochure-design-mockup-mobile {
+    flex-direction: row;
+    gap: 15px;
+  }
+  /* ---------fleecio catalog------ */
+
+  /* ---------3ce poster design------ */
+  .ce-poster {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .ce-poster-intro-mockup-text-1 {
+    display: block;
+  }
+  .ce-poster-intro-mockup-text-2 {
+    display: none;
+  }
+}

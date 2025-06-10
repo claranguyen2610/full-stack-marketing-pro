@@ -1,0 +1,13 @@
+.tve-color-scheme img {
+  border-radius: 40px;
+}
+@media (max-width: 1100px) {
+  .tve-color-scheme img {
+    border-radius: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .tve-color-scheme img {
+    border-radius: 20px;
+  }
+}
