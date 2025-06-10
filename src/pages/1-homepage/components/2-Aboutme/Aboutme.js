@@ -29,7 +29,7 @@ const Aboutme = () => {
         </div>
 
         <div className="home-aboutme-img">
-          <img src={my_portrait} alt="My picture" className="rotate" />
+          <img src={my_portrait} alt="My portrait" className="rotate" />
         </div>
 
         <Link to="/about-me" className="btn-black home-aboutme-btn-2">
