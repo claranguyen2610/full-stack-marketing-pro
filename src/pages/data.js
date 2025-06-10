@@ -55,21 +55,21 @@ export const webProjects = [
   },
   {
     id: 0,
-    h2: 'Portfolio Website Redesign',
-    h4: 'Full Design & Build — From Concept to Code',
+    h2: 'FullstackMarketingPro.com — yep, this site you’re on!',
+    h4: 'Hand-Coded Portfolio Website Built from Scratch',
     description: [
-      'My old portfolio was a basic template — serviceable, but forgettable. It didn’t showcase my skills, personality, or let me flex my end-to-end marketing and technical chops. So I scrapped it and started fresh.',
-      'I took full ownership: reimagined the layout, wrote the copy in English and Vietnamese, designed high-fidelity mockups in Figma, and coded everything from scratch with HTML, CSS, and React. No WordPress, no templates — just me and the code.',
-      'Beyond the visuals, I focused on UX and SEO: Built responsive layouts that adapt seamlessly across devices, optimized site structure and metadata for search engines, integrated lightweight animations to guide users without slowing down performance, created clear conversion funnels to highlight my marketing skills => and deployed it on Netlify to make it live on the internet'
+      'I built FullstackMarketingPro.com from the ground up to showcase my diverse work across marketing, design, and front-end development. Unlike previous client websites, this project was entirely my own — from content strategy to visual design to coding every page in React.',
+      'After years of working as a one-woman marketing team, I wanted a platform that not only highlighted my skills but also reflected the full scope of my capabilities. I designed the site in Figma, wrote all content in English, optimized for SEO, and developed a 10-page responsive website using ReactJS, HTML, CSS, and modern best practices — without any website builders or pre-made templates.',
+      'To improve loading speed and user experience, I implemented image compression, lazy loading, and semantic structure. Each page is tailored to a specific purpose: case studies, UX/UI work, visual design, and a “Work With Me” section that presents my services clearly and persuasively.'
     ],
     result:
-      'The result? A site that’s truly mine — sleek, fast, and professional — and a showcase of my ability to see a project through from the first sketch to the last line of code.',
+      'The result is a polished, performant, and fully customized digital portfolio that authentically represents my unique design sensibility and robust technical proficiency. It stands as a direct testament to my ability to transform ideas into fully functional, aesthetically compelling web experiences, from the initial sketch in Figma to the final line of code.',
     image: MyPortProject,
     webURL:
       'https://www.figma.com/design/H4LsuI1KFG5hxPPWpiyEXM/Full-stack-marketing-portfolio?m=auto&t=EShWVmBWWNoZkGE8-1',
     projectURL: 'https://github.com/claranguyen2610/full-stack-marketing-pro',
-    btn1: 'View code on Github',
-    btn2: 'See the Figma Design'
+    btn1: 'View My Code On Github',
+    btn2: 'See The Figma Design'
   }
 ];
 

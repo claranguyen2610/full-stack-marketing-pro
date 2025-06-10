@@ -9,6 +9,10 @@ const MarketingWorksHero = () => {
           What <span className="highlight-text"> Marketing Works </span>Are
           Included on This Page?
         </h1>
+        <p className="white-text">
+          Click the buttons below to quickly browse or jump straight to the
+          marketing project you're most interested in.
+        </p>
 
         <div className="marketing-works-btns">
           <div className="marketing-works-navigation flex-center">
