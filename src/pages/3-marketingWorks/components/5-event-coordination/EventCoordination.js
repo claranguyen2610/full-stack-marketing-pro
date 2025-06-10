@@ -76,18 +76,18 @@ const EventCoordination = () => {
         <div className="event-images">
           <div className="health-fair-images flex-spacebetween">
             <div>
-              <img src={EECevent} alt="event images" loading="lazy" />
+              <img src={EECevent} alt="event day" loading="lazy" />
             </div>
             <div>
-              <img src={EECevent1} alt="event images" loading="lazy" />
+              <img src={EECevent1} alt="event day" loading="lazy" />
             </div>
           </div>
           <div className="health-fair-images flex-spacebetween">
             <div>
-              <img src={EECevent2} alt="event images" loading="lazy" />
+              <img src={EECevent2} alt="event day" loading="lazy" />
             </div>
             <div>
-              <img src={EECevent3} alt="event images" loading="lazy" />
+              <img src={EECevent3} alt="event day" loading="lazy" />
             </div>
           </div>
         </div>
@@ -101,34 +101,18 @@ const EventCoordination = () => {
             <div className="health-fair-fb-posts flex-spacebetween">
               <div className="health-fair-images flex-center-column flex-2">
                 <div>
-                  <img
-                    src={EECeventFBpost1}
-                    alt="event images"
-                    loading="lazy"
-                  />
+                  <img src={EECeventFBpost1} alt="event day" loading="lazy" />
                 </div>
                 <div>
-                  <img
-                    src={EECeventFBpost2}
-                    alt="event images"
-                    loading="lazy"
-                  />
+                  <img src={EECeventFBpost2} alt="event day" loading="lazy" />
                 </div>
               </div>
               <div className="health-fair-images flex-center-column flex-1">
                 <div>
-                  <img
-                    src={EECeventFBpost3}
-                    alt="event images"
-                    loading="lazy"
-                  />
+                  <img src={EECeventFBpost3} alt="event day" loading="lazy" />
                 </div>
                 <div>
-                  <img
-                    src={EECeventFBpost4}
-                    alt="event images"
-                    loading="lazy"
-                  />
+                  <img src={EECeventFBpost4} alt="event day" loading="lazy" />
                 </div>
               </div>
             </div>

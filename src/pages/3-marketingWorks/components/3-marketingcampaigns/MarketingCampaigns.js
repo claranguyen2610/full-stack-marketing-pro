@@ -114,7 +114,7 @@ const MarketingCampaigns = () => {
             <div className="medical-tourism-whatclinic-img marketing-campaign-img-container ">
               <img
                 src={medicalTourismWhatclinic}
-                alt="Medical Tourism Image"
+                alt="Medical Tourism"
                 loading="lazy"
               />
             </div>

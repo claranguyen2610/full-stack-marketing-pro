@@ -51,7 +51,7 @@ const EECWebProject = () => {
               className="btn-black">
               Initial Figma Design
             </a>
-            <a href="#" className="btn-black">
+            <a href="/" className="btn-black">
               Old Website Video
             </a>
             <a href="https://europeaneyecenter.com/en/" className="btn-yellow">
