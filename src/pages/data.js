@@ -55,7 +55,7 @@ export const webProjects = [
   },
   {
     id: 0,
-    h2: 'FullstackMarketingPro.com — yep, this site you’re on!',
+    h2: 'My Portfolio — yep, this site you’re on!',
     h4: 'Hand-Coded Portfolio Website Built from Scratch',
     description: [
       'I built FullstackMarketingPro.com from the ground up to showcase my diverse work across marketing, design, and front-end development. Unlike previous client websites, this project was entirely my own — from content strategy to visual design to coding every page in React.',
