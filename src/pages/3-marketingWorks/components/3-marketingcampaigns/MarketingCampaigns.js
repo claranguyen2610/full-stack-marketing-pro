@@ -84,9 +84,9 @@ const MarketingCampaigns = () => {
           {/* ----------whatclinic---------- */}
           <div className="medical-tourism-whatclinic flex-spacebetween">
             <div className="medical-tourism-whatclinic-text">
-              <h4 className="dark-grey-text">
+              <h5 className="dark-grey-text">
                 2. Medical Tourism Directories (e.g., WhatClinic)
-              </h4>
+              </h5>
               <p>
                 The clinic already had listings on platforms like WhatClinic,
                 but the content was outdated and basic. And I:
@@ -129,7 +129,7 @@ const MarketingCampaigns = () => {
               />
             </div>
             <div className="medical-tourism-blog-content">
-              <h4 className="dark-grey-text">3. Blog Content</h4>
+              <h5 className="dark-grey-text">3. Blog Content</h5>
               <p>
                 I wrote blog articles focused on educating international
                 patients and addressing their travel and treatment concerns,
@@ -170,7 +170,7 @@ const MarketingCampaigns = () => {
             </div>
           </div>
           {/* ----------medical torism facebook---------- */}
-          <h4 className="dark-grey-text">4. Facebook Posts</h4>
+          <h5 className="dark-grey-text">4. Facebook Posts</h5>
           <p>
             At first, Facebook wasn’t part of my initial plan for this campaign.
             But over time, I noticed that some of our international followers
