@@ -27,9 +27,9 @@
 }
 
 @media (max-width: 800px) {
-.aboutme-english-learning-img img{
-  margin-top: 15px;
-}
+  .aboutme-english-learning-img img {
+    margin-top: 15px;
+  }
   .aboutme-english-learning .flex-spacebetween {
     gap: 15px;
   }

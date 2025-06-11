@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="box-container">
-        <Link to="/" className="site-logo">
-          NGA NGUYEN
-        </Link>
+        <div className="site-logo">
+          <Link to="/" className='site-logo-name'>NGA NGUYEN</Link>
+        </div>
 
         <div className={isOpenMenu ? 'site-menu show' : 'site-menu hide'}>
           <div className="site-menu-items">

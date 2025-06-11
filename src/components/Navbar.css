@@ -18,11 +18,13 @@
   align-items: center;
 }
 .navbar .site-logo {
+  flex: 1;
+}
+.site-logo-name {
   font-size: 22px;
   font-weight: 800;
   color: var(--main-yellow);
   text-decoration: none;
-  flex: 1;
 }
 .site-menu {
   display: flex;
