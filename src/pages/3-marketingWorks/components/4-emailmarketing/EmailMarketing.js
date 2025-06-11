@@ -17,12 +17,12 @@ const EmailMarketing = () => {
             marketing campaigns tailored to English, Vietnamese, and
             Japanese-speaking patient groups.
           </p>
-          <strong>Objective: </strong>
+          <h4>Objective: </h4>
           <p>
             Each campaign was designed to retain former and current patients,
             strengthen brand recall, and encourage them to revisit the clinic.
           </p>
-          <strong>For each campaign, I was responsible for:</strong>
+          <h4>For each campaign, I was responsible for:</h4>
           <ul>
             <li>Defining target audiences by age and nationality</li>
             <li>Collecting and cleaning patient data (names and emails) </li>
@@ -39,7 +39,7 @@ const EmailMarketing = () => {
               Vietnamese, Japanese, and English
             </li>
           </ul>
-          <strong>Performance Summary:</strong>
+          <h4>Performance Summary:</h4>
           <ul>
             <li>
               Average Open Rate: <strong>45%</strong>

@@ -124,8 +124,9 @@ const Branding = () => {
               Even from the beginning, the clinic did not explicitly position
               itself as an international eye clinic. However, due to its foreign
               doctors, founders, and multilingual operations, expat patients
-              naturally perceived it as one, while local patients perceived it
-              as a private eye clinic with foreign doctors.
+              naturally perceived it as an international clinic, while local
+              patients perceived it as a private eye clinic with foreign
+              doctors.
             </li>
             <li>
               For social media content and design styles:
@@ -157,8 +158,9 @@ const Branding = () => {
           <ul>
             <li>
               Strengthen the international aspect with high-quality services and
-              make it more visible to all types of patients (local Vietnamese,
-              expats, and international patients abroad).
+              experienced European Eye Doctors and make this message more
+              visible to all types of patients (local Vietnamese, expats, and
+              international patients abroad) to improve brand awareness.
             </li>
             <li>
               Ensure the content and images consistent across platforms, from

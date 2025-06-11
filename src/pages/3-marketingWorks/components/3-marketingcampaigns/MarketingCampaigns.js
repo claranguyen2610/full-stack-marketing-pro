@@ -18,7 +18,7 @@ const MarketingCampaigns = () => {
         <h2 className="dark-yellow-text">Best Marketing Campaigns</h2>
         {/* ---------MEDICAL TOURISM CAMPAIGN--------- */}
         <div className="medical-tourism-campaign">
-          <h3>1. Medical Tourism Campaign:</h3>
+          <h3>1. Medical Tourism Campaign</h3>
           <p>
             <em>
               To respect company confidentiality, this section focuses on the
@@ -27,7 +27,7 @@ const MarketingCampaigns = () => {
               Thank you for your understanding.
             </em>
           </p>
-          <h4 className="dark-grey-text">Challenge</h4>
+          <h4 className="dark-grey-text">The Challenges:</h4>
           <p>
             One day, my bosses came to me and told me they wanted to attract
             more international patients who were not living in Vietnam to choose
@@ -47,7 +47,7 @@ const MarketingCampaigns = () => {
               clinic?”
             </strong>
           </p>
-          <h4 className="dark-grey-text">Brainstorm Phase</h4>
+          <h4 className="dark-grey-text">Research Phase:</h4>
           <p>
             As with any marketing challenge, I began with in-depth research and
             asked questions whenever I hit a knowledge gap. I explored the
@@ -57,7 +57,7 @@ const MarketingCampaigns = () => {
             content ideas in a Google Docs file as part of my ideation process.
           </p>{' '}
           {/* ----------excution overview---------- */}
-          <h4 className="dark-grey-text">Execution overview</h4>
+          <h4 className="dark-grey-text">Execution overview:</h4>
           <h5 className="dark-grey-text">1. Dedicated Landing Page</h5>
           <p>
             I proposed and created a new SEO-optimized landing page specifically
@@ -275,7 +275,7 @@ const MarketingCampaigns = () => {
                 </ul>
               </div>
               <div className="reflection mt-lg">
-                <h4 className="dark-grey-text">Reflection</h4>
+                <h4 className="dark-grey-text">Reflection:</h4>
                 <p>
                   This campaign helped me better understand how to balance
                   education and promotion, manage price-sensitive products

@@ -13,6 +13,7 @@ const SocialMediaAds = () => {
         <h2 className="dark-yellow-text">
           Social media content and Facebook ads
         </h2>
+        <h4>Overview:</h4>
         <p>
           During my time at European Eye Center, I created and managed multiple
           Facebook posts and ad campaigns that successfully generated leads and
@@ -23,12 +24,15 @@ const SocialMediaAds = () => {
           Instead, I’ve included publicly available elements such as ad
           screenshots, direct Facebook post URLs, and a clear summary of my
           responsibilities for each campaign. Thank you for your understanding.
-        </p>{' '}
-        <p>
-          <strong>My role:</strong> Created content, designed visuals using
-          Photoshop, set up and ran the campaign, responded to patient inquiries
-          when needed, and replied to all comments
         </p>
+        <h4>My Role:</h4>
+        <ul>
+          <li>Created content</li>
+          <li>Designed visuals using Photoshop</li>
+          <li>Set up and ran the campaigns in Meta Ads Manager</li>
+          <li>Responded to patient inquiries when needed</li>
+          <li> Replied to all comments</li>
+        </ul>
         <div className="FB-ads-grid">
           <div className="flex-center-colum">
             <img src={FBad1} alt="Facebook Ad 1" loading="lazy" />
