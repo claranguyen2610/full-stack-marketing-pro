@@ -125,8 +125,8 @@ const Experience = () => {
                 <li>
                   <small>
                     Built and managed content across Facebook, Zalo, Instagram,
-                    LinkedIn, and YouTube. Grew LinkedIn (0 → 439) and Facebook
-                    (+1,279 followers).
+                    LinkedIn, and YouTube. Grew LinkedIn (0 → 438) and Facebook
+                    (+1,279 new followers).
                   </small>
                 </li>
                 <li>
@@ -138,7 +138,7 @@ const Experience = () => {
                 <li>
                   <small>
                     Launched multilingual email campaigns (Mailchimp + Odoo)
-                    with up to 45.74% open rates.
+                    with up to 45% open rates and 2.45% click rate.
                   </small>
                 </li>
               </ul>

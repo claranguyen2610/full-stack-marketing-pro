@@ -38,7 +38,7 @@ const TVEWebProject = () => {
           Figma, and developing a bilingual hybrid e-commerce site using
           WordPress and WooCommerce. The result was a modern, SEO-optimized
           platform that restored the brand’s digital presence, improved trust
-          with customers, and steadily grew to ~650 monthly visitors.
+          with customers, and steadily grew to ~600 monthly visitors.
         </p>
         <div className="flex-start">
           <div className="case-study-btns flex-spacebetween">
@@ -415,7 +415,7 @@ const TVEWebProject = () => {
               website that reflects its premium brand identity
             </li>
             <li>
-              Grew website traffic from zero to approximately 650 monthly
+              Grew website traffic from zero to over 600 monthly
               visitors, with steady upward momentum
             </li>
             <li>

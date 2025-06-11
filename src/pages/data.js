@@ -30,7 +30,7 @@ export const webProjects = [
       'I designed the layout in Figma and built the new bilingual site using WordPress + WooCommerce, blending storytelling and browsing ease. Product pages were organized by gender and style, while support pages like Help Center and Blog improved SEO and customer trust.'
     ],
     result:
-      'The refreshed site restored digital credibility, reached ~650 monthly visitors organically, and ranked in top Google search results for key product terms like “prescription glasses Vietnam” and “glasses in Ho Chi Minh City.”',
+      'The refreshed site restored digital credibility, reached ~600 monthly visitors organically, and ranked in top Google search results for key product terms like “prescription glasses Vietnam” and “glasses in Ho Chi Minh City.”',
     image: TVEwebProject,
     webURL: 'https://topvisioneyewear.vn/en/',
     projectURL:
