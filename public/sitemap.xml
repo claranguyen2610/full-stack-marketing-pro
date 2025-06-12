@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://fullstackmarketingpro.com/</loc>
-  </url>
+
+  <url><loc>https://fullstackmarketingpro.com/</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/about-me</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/marketing-portfolio</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/uxui-project-portfolio</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/uxui-project-portfolio/full-website-redesign-for-european-eye-center</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/uxui-project-portfolio/top-vision-eyewear-hybrid-ecommerce-website</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/uxui-project-portfolio/blincq-solutions-medical-tech-site</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/graphic-design-portfolio</loc></url>
+  <url><loc>https://fullstackmarketingpro.com/hire-full-stack-marketer</loc></url>
+
 </urlset>

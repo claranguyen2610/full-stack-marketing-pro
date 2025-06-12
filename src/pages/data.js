@@ -58,7 +58,7 @@ export const webProjects = [
     h2: 'My Portfolio — yep, this site you’re on!',
     h4: 'Hand-Coded Portfolio Website Built from Scratch',
     description: [
-      'I built FullstackMarketingPro.com from the ground up to showcase my diverse work across marketing, design, and front-end development. Unlike previous client websites, this project was entirely my own — from content strategy to visual design to coding every page in React.',
+      'I built FullstackMarketingPro.com from the ground up to showcase my diverse work across marketing, design, and front-end development. Unlike previous client websites, this project was entirely my own — from content strategy to visual design to coding every page in ReactJS.',
       'After years of working as a one-woman marketing team, I wanted a platform that not only highlighted my skills but also reflected the full scope of my capabilities. I designed the site in Figma, wrote all content in English, optimized for SEO, and developed a 10-page responsive website using ReactJS, HTML, CSS, and modern best practices — without any website builders or pre-made templates.',
       'To improve loading speed and user experience, I implemented image compression, lazy loading, and semantic structure. Each page is tailored to a specific purpose: case studies, UX/UI work, visual design, and a “Work With Me” section that presents my services clearly and persuasively.'
     ],

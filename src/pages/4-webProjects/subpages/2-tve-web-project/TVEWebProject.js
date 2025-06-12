@@ -415,7 +415,7 @@ const TVEWebProject = () => {
               website that reflects its premium brand identity
             </li>
             <li>
-              Grew website traffic from zero to over 600 monthly
+              Grew website traffic from zero to ~600 monthly
               visitors, with steady upward momentum
             </li>
             <li>
