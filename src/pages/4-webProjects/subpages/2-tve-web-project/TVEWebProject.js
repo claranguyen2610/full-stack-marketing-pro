@@ -249,7 +249,7 @@ const TVEWebProject = () => {
               traditional, or hybrid
             </li>
             <li>
-              Designed the full website layout in Figma without any existing
+              Designed the main page layouts for the website in Figma without any existing
               internal references to guide the design
             </li>
             <li>

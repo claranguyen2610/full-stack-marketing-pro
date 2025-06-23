@@ -17,7 +17,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="box-container">
         <div className="site-logo">
-          <Link to="/" className='site-logo-name'>NGA NGUYEN</Link>
+          <Link to="/" className="site-logo-name">
+            NGA NGUYEN
+          </Link>
         </div>
 
         <div className={isOpenMenu ? 'site-menu show' : 'site-menu hide'}>
@@ -67,7 +69,7 @@ const Navbar = () => {
                     : 'site-menu-item'
                 }
                 onClick={toggleMobileMenu}>
-                Web Projects
+                Website Designs
               </Link>
             </li>
             <li>

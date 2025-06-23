@@ -194,7 +194,7 @@ const BSWebProject = () => {
               documentation
             </li>
             <li>
-              Designed the complete website layout in Figma without any existing
+              Designed the main page layouts for the website in Figma without any existing
               brand or design guidelines
             </li>
             <li>

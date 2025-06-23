@@ -1,0 +1,17 @@
+.ngoc-dung-designs {
+  gap: 30px;
+}
+.ngoc-dung-design-1 {
+  flex: 1.28;
+}
+.ngoc-dung-design-2 {
+  flex: 2;
+}
+.ngoc-dung-designs img {
+  border-radius: 15px;
+}
+@media (max-width: 800px) {
+  .ngoc-dung-designs {
+    gap: 20px;
+  }
+}

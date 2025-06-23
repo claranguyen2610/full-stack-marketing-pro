@@ -4,6 +4,7 @@ import DesignPortfolioHero from './components/0-DesignPortfolioHero/DesignPortfo
 import StudentProject from './components/1-student-project/StudentProject';
 import LogoRefineDesign from './components/2-logo-design-refine/LogoRefineDesign';
 import CategoryBaseDesign from './components/3-category-base/CategoryBaseDesign';
+import ExtraDesigns from './components/4-extra-design/ExtraDesigns';
 
 const DesignPortfolio = () => {
   return (
@@ -19,6 +20,7 @@ const DesignPortfolio = () => {
       <StudentProject />
       <LogoRefineDesign />
       <CategoryBaseDesign />
+      <ExtraDesigns />
     </main>
     </>
   );
