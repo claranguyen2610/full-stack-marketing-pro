@@ -81,7 +81,7 @@ const Navbar = () => {
                     : 'site-menu-item'
                 }
                 onClick={toggleMobileMenu}>
-                Design Portfolio
+                Graphic Designs
               </Link>
             </li>
           </div>

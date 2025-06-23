@@ -6,7 +6,9 @@ const Hero = () => {
     <section className="home-hero site-container-hero" id="top-page">
       <div className="box-container flex-center-column">
         <h5 className="text-align-center">
-          I help brands grow through digital marketing, content, and design.
+          I help brands <span className="highlight-text">GROW</span> and{' '}
+          <span className="highlight-text">CUT COSTS</span> with full-stack
+          digital marketing expertise
         </h5>
         <h1 className="text-align-center">
           <span className="highlight-text">A Full-Stack Digital Marketer </span>
